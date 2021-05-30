@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            h1{
+                text-align: center;
+                font-size: 35px;
+            }
+            h2{
+                text-align: center;
+                font-size: 20px;
+            }
+            body{
+                background-color: rgb(228, 213, 231);
+            }
+            .event-container{
+                font-family: sans-serif;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            .event-container h3.year{
+                font-size: 40px;
+                text-align: center;
+                border-bottom: 1px solid #b1b1b1;
+            }
+            .event-container .event{
+                box-shadow: 0 4px 16px -8px rgba(0, 0, 0, 0.5);
+                display: flex;
+                border-radius: 8px;
+                margin: 32px 0;
+            }
+            .event .event-left{
+                background:rgb(112, 222, 255);
+                min-width:82px;
+                display:flex;
+                align-items: center;
+                justify-content: center;
+                padding: 8px 48px;
+                font-weight: bold;
+                text-align: center;
+                border-radius: 8px 0 0 8px;
+            }
+            .event .event-left .date{
+                font-size: 56px;
+            }
+            .event .event-left .month{
+                font-size: 16px;
+                font-weight: normal;
+            }
+            .event .event-right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 0 24px;
+            }
+            h3.event-title{
+                font-size: 24px;
+                margin: 24px 0 10px 0;
+                color:#218bbb;
+                text-transform: uppercase;
+            }
+            @media(max-width:550px){
+                .event{
+                    flex-direction: column;
+                }
+                .event .event-left{
+                    padding: 0;
+                    border-radius: 8px 8px 0 0;
+                }
+            .event .event-left .event-date .date
+            .event .event-left .event-date .month{
+                display: inline-block;
+                font-size: 24px;
+            }
+            .event .event-left .event-date{
+                padding: 10px 0;
+            }
+            }
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Events Calender</title>
+        <style>
+        </style>
+        <h1>Events</h1>
+        <h2>This page consists of Past and Upcoming Events</h2>
+    </head>
+    <body>
+        <div class="event-container">
+            <h3 class="year">2018</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="events-date">
+                    <div class="date">24</div>
+                    <div class="month">February</div>
+                </div>
+
+            </div>
+            <div class="event-right"></div>
+            <h3 class="event-title">Stellenbosch Wine Festival</h3>
+
+            <div class="event-description">One of the best ways to experience the magic of the Winelands town of Stellenbosch is through the product they are best known for – wine! The annual Stellenbosch Wine Festival, taking place from Friday, 23 to Sunday, 25 February 2018, presents hundreds of wines from the area, from large and award-winning producers to smaller and niche boutique wineries. Presented by Pick n Pay and taking place at the Coetzenburg Sports Grounds, this is a family-friendly event with plenty of food and lifestyle offerings too. 
+            </div>
+        </div>
+        </div>
+        <div class="event-container">
+            <h3 class="year">2020</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="events-date">
+                    <div class="date">4</div>
+                    <div class="month">November</div>
+                </div>
+            </div>
+            <div class="event-right"></div>
+            <h3 class="event-title">3 Peaks Challenge</h3>
+
+            <div class="event-description">This arduous trail run combines the beauty of the mountain and city in a fun but strenuous challenge. The trail takes runners up Devils Peak, Table Mountain and Lions Head returning to Greenmarket Square in town after completing each peak.The challenge commemorates Carl Wilhelm Schneeberger’s who in 1897 successfully completed the race. 
+            </div>
+        </div>
+        </div>
+        <div class="event-container">
+            <h3 class="year">2021</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="events-date">
+                    <div class="date">16</div>
+                    <div class="month">June</div>
+                </div>
+
+            </div>
+            <div class="event-right"></div>
+            <h3 class="event-title">Cape Town Jazz Festival</h3>
+
+            <div class="event-description">This has become one of the most sought after events to perform at for both international and local artists and takes place yearly on the last weekend of March or the first weekend of April at the Cape Town International Convention Centre. With its star-studded lineup gracing 5 different stages it is a festival worth experiencing. 
+            </div>
+        </div>
+        </div>
+        <div class="event-container">
+            <h3 class="year">2022</h3>
+        <div class="event">
+            <div class="event-left">
+                <div class="events-date">
+                    <div class="date">11</div>
+                    <div class="month">September</div>
+                </div>
+
+            </div>
+            <div class="event-right"></div>
+            <h3 class="event-title">Nelz DJ Guide</h3>
+
+            <div class="event-description">Come watch DJ Nelz alongside your favourite artists rage on stage.
+            </div>
+        </div>
+        </div>
+    </body>
+    </html>
